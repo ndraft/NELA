@@ -15,12 +15,14 @@ function App() {
       {/* Halaman 1 */}
       {page === 1 && (
         <div className={`page page1 ${page === 1 ? 'show' : ''}`}>
-          <h1 className="text-center">
-            Selamat Ulang Tahun 
-            <br />
-            Alma Naila Shafa Nasywa!
-          </h1>
-          <p className="text-center">Semoga byby aku suka ya sama kadonya☺️</p>
+          <div className="message-container text-center">
+            <h1>
+              Selamat Ulang Tahun 
+              <br />
+              Alma Naila Shafa Nasywa!
+            </h1>
+            <p>Semoga byby aku suka ya sama kadonya☺️</p>
+          </div>
 
           {/* Card Section */}
           <div className="row mt-5">
@@ -79,5 +81,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

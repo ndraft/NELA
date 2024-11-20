@@ -23,3 +23,98 @@
     transition: transform 1s ease-in-out; /* Durasi transisi 1 detik */
   }
   
+  /* Gaya untuk kontainer pesan */
+  .message-container {
+    border: 2px solid #7ec8e3; /* Warna biru muda */
+    border-radius: 25px; /* Ujung border lebih rounded */
+    padding: 30px; /* Padding lebih besar untuk memberi ruang */
+    background-color: #d6efff; /* Latar belakang biru pastel */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Efek bayangan lebih halus dan elegan */
+    margin-bottom: 30px; /* Margin bawah untuk memberi ruang dengan konten lainnya */
+    max-width: 80%; /* Maksimal lebar kontainer */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Typography styling untuk teks */
+  .message-container h1 {
+    font-size: 3rem; /* Ukuran font yang lebih besar */
+    color: #2a5d77; /* Warna biru tua */
+    font-weight: 700; /* Font bold */
+    font-family: 'Roboto', sans-serif; /* Font yang modern dan elegan */
+    text-align: center; /* Pusatkan judul */
+  }
+  
+  .message-container p {
+    font-size: 1.25rem; /* Ukuran font sedang untuk paragraf */
+    color: #4a8c9d; /* Warna biru kehijauan */
+    font-style: italic; /* Gaya italic untuk teks */
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font modern */
+    text-align: center;
+  }
+  
+  /* Card Section */
+  .card {
+    border: 2px solid #7ec8e3; /* Senada dengan border message-container */
+    border-radius: 15px; /* Ujung card lebih rounded */
+    overflow: hidden; /* Agar gambar tidak keluar dari batas card */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Efek bayangan lebih elegan */
+    transition: transform 0.3s ease; /* Animasi saat hover */
+    background-color: #d6efff; /* Latar belakang card sesuai dengan message-container */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Efek hover agar card terangkat sedikit */
+  }
+  
+  .card img {
+    border-radius: 10px; /* Memberikan gambar lebih rounded */
+  }
+  
+  .card-body {
+    background-color: #ffffff; /* Latar belakang card body putih */
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Ukuran font lebih besar */
+    color: #2a5d77; /* Warna biru tua */
+    font-weight: 600; /* Font bold */
+  }
+  
+  .card-text {
+    color: #4a8c9d; /* Warna biru kehijauan */
+    font-size: 1rem;
+  }
+  
+  /* Button Styling */
+  .btn-next {
+    background-color: #7ec8e3; /* Biru muda cerah untuk tombol */
+    color: white; /* Warna teks putih */
+    font-size: 1.2rem; /* Ukuran font yang sedikit lebih besar */
+    border: none; /* Menghilangkan border default */
+    padding: 15px 35px; /* Padding tombol yang lebih besar */
+    border-radius: 30px; /* Ujung tombol lebih rounded */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Bayangan tombol lebih halus */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efek transisi */
+  }
+  
+  .btn-next:hover {
+    background-color: #6ab9d3; /* Warna tombol saat hover lebih gelap */
+    transform: scale(1.05); /* Efek tombol sedikit membesar saat hover */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 50px;
+    background-color: #ffffff; /* Latar belakang halaman biru muda */
+    min-height: 100vh; /* Menjamin halaman memenuhi layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
