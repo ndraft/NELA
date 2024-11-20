@@ -1,16 +1,25 @@
-.container {
-    text-align: center;
-    padding: 50px;
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* App.css */
+
+/* Animasi untuk membuka buku */
+.page {
+    display: none; /* Sembunyikan halaman secara default */
+    transform: rotateY(90deg); /* Halaman pertama dimulai dalam posisi tertutup */
+    transition: transform 1s ease-in-out; /* Durasi 1 detik untuk animasi */
   }
   
-  .message {
-    padding: 20px;
-    background-color: #ffebcd;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .page.show {
+    display: block;  /* Menampilkan halaman yang aktif */
+    transform: rotateY(0deg); /* Efek membuka buku */
+  }
+  
+  /* Kelas untuk animasi transisi */
+  .page1.animating {
+    transform: rotateY(90deg); /* Menutup halaman pertama (seperti buku tertutup) */
+  }
+  
+  /* Halaman 2 tetap dalam posisi normal */
+  .page2 {
+    transform: rotateY(0deg); /* Halaman kedua tetap dalam posisi terbuka */
+    transition: transform 1s ease-in-out; /* Durasi transisi 1 detik */
   }
   

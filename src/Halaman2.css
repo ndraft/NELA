@@ -1,0 +1,10 @@
+/* Halaman2.css */
+.halaman2 {
+  transform: rotateY(0deg);
+  transition: transform 1s ease; /* Efek transisi */
+}
+
+.halaman2 .card {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
