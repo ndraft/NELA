@@ -1,4 +1,3 @@
-/* App.jsx */
 import React, { useState } from "react";
 import './App.css';  // Mengimpor file CSS utama
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,7 +27,7 @@ function App() {
 
           {/* Card Section */}
           <div className="row mt-5">
-            <div className="col-md-4">
+            <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
                   src="https://via.placeholder.com/300"
@@ -43,7 +42,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
                   src="https://via.placeholder.com/300"
@@ -58,7 +57,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
                   src="https://via.placeholder.com/300"
@@ -73,8 +72,6 @@ function App() {
               </div>
             </div>
           </div>
-
-          {/* Button Next (Dihapus) */}
         </div>
       )}
 
