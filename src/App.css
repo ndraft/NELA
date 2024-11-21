@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; /* Mencegah scroll horizontal */
 }
 
 /* Animasi untuk membuka buku */
@@ -48,6 +49,8 @@ body {
 
 .card img {
   border-radius: 10px; /* Memberikan gambar lebih rounded */
+  width: 100%; /* Menjamin gambar menyesuaikan lebar card */
+  height: auto; /* Menjaga proporsi gambar */
 }
 
 .card-body {
@@ -93,4 +96,55 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Responsif untuk ukuran layar kecil */
+@media (max-width: 768px) {
+  /* Menyesuaikan ukuran font dan elemen */
+  .card-title {
+    font-size: 1.2rem; /* Ukuran font title lebih kecil */
+  }
+
+  .card-text {
+    font-size: 0.9rem; /* Ukuran font card text lebih kecil */
+  }
+
+  .btn-next {
+    padding: 10px 25px; /* Padding tombol lebih kecil */
+    font-size: 1rem; /* Ukuran font tombol lebih kecil */
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* Responsif untuk ukuran layar sangat kecil (seperti perangkat mobile) */
+@media (max-width: 576px) {
+  /* Mengatur jarak antar card */
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card {
+    margin-bottom: 15px; /* Memberikan jarak antar card */
+  }
+
+  .card-body {
+    padding: 10px; /* Padding card lebih kecil */
+  }
+
+  h1 {
+    font-size: 1.5rem;  /* Ukuran font judul lebih kecil */
+  }
+
+  p {
+    font-size: 1rem;  /* Ukuran font paragraf lebih kecil */
+  }
+
+  .btn-info {
+    width: 100%; /* Tombol mengambil lebar penuh pada mobile */
+  }
 }
