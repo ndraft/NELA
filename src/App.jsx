@@ -1,3 +1,4 @@
+/* App.jsx */
 import React, { useState } from "react";
 import './App.css';  // Mengimpor file CSS utama
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,8 +7,9 @@ import Halaman2 from './Halaman2';  // Mengimpor Halaman2
 function App() {
   const [page, setPage] = useState(1);
 
-  const handleNext = () => {
-    setPage(2); // Pindah ke halaman 2
+  // Fungsi untuk berpindah ke halaman 2
+  const handleMasuk = () => {
+    setPage(2); // Pindah ke halaman 2 ketika tombol Masuk ditekan
   };
 
   return (
@@ -35,7 +37,8 @@ function App() {
                 />
                 <div className="card-body">
                   <h5 className="card-title">Hadiah 1</h5>
-                  <p className="card-text">Kamu pasti suka dengan hadiah pertama ini!</p>
+                  <p className="card-text">Kamu pasti suka dengan hadiah ini!</p>
+                  <button className="btn btn-info" onClick={handleMasuk}>Masuk</button> {/* Tombol Masuk */}
                 </div>
               </div>
             </div>
@@ -50,6 +53,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Hadiah 2</h5>
                   <p className="card-text">Hadiah ini penuh dengan cinta untukmu!</p>
+                  <button className="btn btn-info">Masuk</button> {/* Tombol Masuk */}
                 </div>
               </div>
             </div>
@@ -64,15 +68,13 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Hadiah 3</h5>
                   <p className="card-text">Hadiah ketiga untukmu yang spesial!</p>
+                  <button className="btn btn-info">Masuk</button> {/* Tombol Masuk */}
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Button Next */}
-          <div className="text-center mt-4">
-            <button className="btn btn-primary" onClick={handleNext}>Next</button>
-          </div>
+          {/* Button Next (Dihapus) */}
         </div>
       )}
 
@@ -81,6 +83,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
