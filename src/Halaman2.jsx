@@ -8,24 +8,22 @@ const Halaman2 = () => {
       <p className="text-center">
         Selamat datang di halaman kedua! Semoga hari ini menjadi kenangan yang tak terlupakan. 😊
       </p>
-      <div className="card mt-4">
-        <img
-          src="https://via.placeholder.com/300"
-          className="card-img-top"
-          alt="Birthday Cake"
-        />
-        <div className="card-body">
-          <h5 className="card-title">Kue Ulang Tahun</h5>
-          <p className="card-text">Kue spesial untukmu! Semoga semakin manis hidupmu seperti kue ini. 🍰</p>
-        </div>
-      </div>
-      <div className="text-center mt-4">
-        <button className="btn btn-success">Terima Kasih!</button>
+      
+      {/* Menampilkan Video YouTube */}
+      <div className="video-container mt-4">
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"  // Ganti dengan ID video YouTube yang sesuai
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
 
-      {/* Tombol Kembali ke Halaman 1 */}
       <div className="text-center mt-4">
-        <button className="btn btn-secondary" onClick={() => window.location.reload()}>Kembali</button>
+        <button className="btn btn-secondary" onClick={() => window.location.reload()}>back</button>
       </div>
     </div>
   );
