@@ -1,10 +1,54 @@
 /* Halaman2.css */
-.halaman2 {
-  transform: rotateY(0deg);
-  transition: transform 1s ease; /* Efek transisi */
+
+/* Container utama untuk Halaman 2 */
+.halaman2-container {
+  margin-top: 50px;
+  font-family: 'Georgia', serif;  /* Font klasik dan elegan */
 }
 
-.halaman2 .card {
-  background-color: #f8f9fa;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Card utama */
+.halaman2-card {
+  background-color: #fff6e5;  /* Latar belakang warna lembut seperti kertas kuno */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+  border-radius: 15px;  /* Sudut card yang bulat */
+  overflow: hidden;  /* Menghindari konten keluar dari card */
+  border: none;  /* Menghilangkan border default */
+}
+
+/* Header pada card */
+.halaman2-header {
+  background-color: #f5a623;  /* Warna latar belakang oranye lembut */
+  color: white;  /* Warna teks putih */
+  padding: 20px;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #f7c59f;  /* Garis bawah tipis */
+}
+
+/* Teks note dalam body */
+.halaman2-body {
+  padding: 30px;
+  line-height: 1.6;  /* Jarak antar baris agar teks mudah dibaca */
+}
+
+/* Konten catatan (teks panjang) */
+.halaman2-note {
+  font-size: 18px;
+  color: #5d4037;  /* Warna cokelat gelap untuk kesan tulisan tangan */
+  font-family: 'Cursive', 'Georgia', serif; /* Font cursive yang mirip tulisan tangan */
+  text-align: left;
+  white-space: pre-line;  /* Agar paragraf diatur dengan baik */
+  letter-spacing: 1px; /* Sedikit jarak antar huruf untuk meningkatkan estetika */
+  background: url('https://www.transparenttextures.com/patterns/cubes.png');  /* Background efek kertas */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Efek bayangan lembut */
+  margin-top: 20px;
+  max-height: 400px;  /* Membatasi tinggi untuk scroll jika isi teks panjang */
+  overflow-y: auto;  /* Jika teks panjang, muncul scrollbar */
+}
+
+/* Efek hover pada card */
+.halaman2-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Efek bayangan lebih tebal saat hover */
+  cursor: pointer;  /* Mengubah cursor saat hover */
 }

@@ -1,0 +1,138 @@
+/* Reset dan penataan elemen dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f7;  /* Background halaman */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Login container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1); /* Background transparan sedikit */
+  }
+  
+  /* Box untuk tampilan login */
+  .login-box {
+    padding: 30px;
+    border-radius: 16px;  /* Rounded corners seperti macOS */
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Shadow lebih tegas */
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Tampilan input password */
+  .password-input {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .password-input::placeholder {
+    text-align: center;
+    color: #aaa;
+  }
+  
+  .password-input:focus {
+    border-color: #007aff;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 122, 255, 0.3);
+    text-align: center;
+  }
+  
+  /* Tombol */
+  button {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+  }
+  
+  /* Tombol Masuk */
+  .btn-submit {
+    background-color: #007aff;  /* Biru macOS */
+    color: #007aff;
+    font-weight: 600;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0061d5;
+  }
+  
+  /* Tombol Kembali */
+  /* Styling untuk tombol back (ikon) */
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #007AFF;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .back-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .back-btn i {
+    margin-right: 5px; /* Jarak antara ikon dan teks */
+  }
+  
+  /* Pesan Error */
+  .error-message {
+    color: #ff3b30;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  /* Responsif untuk layar kecil */
+  @media (max-width: 400px) {
+    .login-box {
+      padding: 20px 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      padding: 14px;
+    }
+  }
+  
