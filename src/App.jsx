@@ -8,6 +8,7 @@ import LoginPage from './LoginPage';  // Halaman Login untuk password
 import 'font-awesome/css/font-awesome.min.css'; // Import font-awesome CSS
 
 
+
 function App() {
   const [page, setPage] = useState(1); // Untuk melacak halaman aktif
   const [authenticated, setAuthenticated] = useState(false); // Status autentikasi
@@ -58,7 +59,7 @@ function App() {
             <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
-                  src="https://via.placeholder.com/300"
+                  src="public/img/card6.jpg"
                   className="card-img-top"
                   alt="Birthday Gift 1"
                 />
@@ -73,7 +74,7 @@ function App() {
             <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
-                  src="https://via.placeholder.com/300"
+                  src="public/img/card2.jpg"
                   className="card-img-top"
                   alt="Birthday Gift 2"
                 />
@@ -88,7 +89,7 @@ function App() {
             <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
-                  src="https://via.placeholder.com/300"
+                  src="public/img/card3.jpg"
                   className="card-img-top"
                   alt="Birthday Gift 3"
                 />
