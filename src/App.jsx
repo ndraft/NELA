@@ -59,7 +59,7 @@ function App() {
             <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
-                  src="public/img/card6.jpg"
+                  src="img/card6.jpg"
                   className="card-img-top"
                   alt="Birthday Gift 1"
                 />
@@ -74,7 +74,7 @@ function App() {
             <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
-                  src="public/img/card2.jpg"
+                  src="img/card2.jpg"
                   className="card-img-top"
                   alt="Birthday Gift 2"
                 />
@@ -89,7 +89,7 @@ function App() {
             <div className="col-12 col-md-4 mb-3">
               <div className="card">
                 <img
-                  src="public/img/card3.jpg"
+                  src="img/card3.jpg"
                   className="card-img-top"
                   alt="Birthday Gift 3"
                 />
