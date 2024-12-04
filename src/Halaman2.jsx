@@ -42,7 +42,7 @@ const Halaman2 = ({ onBack }) => {
                 Sayangku, Bidadariku, Pujaan Hatiku dan Cinta Sejatiku eci akan selalu berusaha menjaga byby sampai kapanpun,
                 eci akan berusaha selalu ada disamping byby dalam kondisi sedih maupun senang. Mungkin kalo byby bisa belah hatiku dan baca isi pikiranku, byby 
                 akan tau sebepera dalam sayang dan cintanya aku kebyby. Aku cinta mati sayang sama byby i know ini cringe tapi kenyataanya seperti itu, kamu
-                benar-benar separuh nafasku by. i love u to the moon and back and ur my everything☺😘.
+                benar-benar separuh nafasku by. i love u to the moon and back and ur my everything😊😘.
                 <br />
                 <br />
                 Terima kasih atas semua kebahagiaan yang telah byby berikan dalam hidupku. Setiap
