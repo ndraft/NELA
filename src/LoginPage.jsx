@@ -25,7 +25,7 @@ const LoginPage = ({ onLoginSuccess, onBack }) => {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h2>Byby Pasti<br/>Tau Password Ini</h2>
+      <p style={{ fontSize: '18px', fontWeight: 'bold', fontFamily:'Prompt' }}>Byby Pasti <br/>Tau Password Ini!</p>
         
         {/* Tampilkan pesan error jika password salah */}
         {error && <p className="error">{error}</p>}

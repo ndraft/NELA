@@ -8,11 +8,17 @@ function Halaman3({ onBack }) {
 
   return (
     <div className="page-container">
-      <h2 style={{ textAlign: 'center' }}>ALBUM NOSTALGIA! ❤️</h2>
-      <p>
-        Hadiah ini adalah tanda cinta dan perhatian dariku untukmu. Aku berharap
-        kamu selalu merasa dihargai dan dicintai.
-      </p>
+      <h1 style={{ fontFamily: '"Edu AU VIC WA NT Pre", cursive', fontWeight: 'normal', fontStyle: 'normal', textAlign: 'center' }}>
+            -Album 
+          
+            Nostalgia-
+          </h1>
+      
+      <p style={{ fontSize: '12px' }}>Hadiah ini adalah tanda cinta dan perhatian dariku untukmu. Aku berharap
+      kamu selalu merasa dihargai dan dicintai.</p>
+      
+
+      
 
       {/* Menambahkan gambar di atas tombol "Lihat Album Foto" */}
       <img 
