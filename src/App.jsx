@@ -65,8 +65,11 @@ function App() {
                   alt="Birthday Gift 1"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Hadiah 1</h5>
-                  <p className="card-text">Kamu pasti suka dengan hadiah ini!</p>
+                  
+                  <p className="card-title" style={{textAlign:"center"}}>
+                      Hadiah Pertama
+                  </p>
+                  <p className="card-text" style={{textAlign:"center",fontSize:'15px'}}>hadiah ini berisi video pendek untuk byby🤗!</p>
                   <button className="btn btn-info" onClick={() => handleMasuk(1)}>Masuk</button> {/* Tombol Masuk untuk Hadiah 1 */}
                 </div>
               </div>
@@ -80,8 +83,8 @@ function App() {
                   alt="Birthday Gift 2"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Hadiah 2</h5>
-                  <p className="card-text">Hadiah ini isinya secret note dari aku untuk byby🤫!</p>
+                  <h5 className="card-title" style={{textAlign:"center"}}>Hadiah Kedua</h5>
+                  <p className="card-text" style={{textAlign:"center", fontSize:'15px'}}>Hadiah ini isinya secret note dari aku untuk byby🤫!</p>
                   <button className="btn btn-info" onClick={() => handleMasuk(2)}>Masuk</button> {/* Tombol Masuk untuk Hadiah 2 */}
                 </div>
               </div>
@@ -95,8 +98,8 @@ function App() {
                   alt="Birthday Gift 3"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Hadiah 3</h5>
-                  <p className="card-text">Hadiah ini isi nya Album Nostalgia spesial untuk byby😋!</p>
+                  <h5 className="card-title" style={{textAlign:"center"}}>Hadiah Ketiga</h5>
+                  <p className="card-text" style={{textAlign:"center",fontSize:'15px'}}>Hadiah ini isi nya Album Nostalgia spesial untuk byby😋!</p>
                   <button className="btn btn-info" onClick={() => handleMasuk(3)}>Masuk</button> {/* Tombol Masuk untuk Hadiah 3 */}
                 </div>
               </div>
