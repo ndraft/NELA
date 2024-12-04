@@ -140,8 +140,12 @@ body {
   }
 
   h1 {
-    font-size: 1.5rem;  /* Ukuran font judul lebih kecil */
+    font-family: "Edu AU VIC WA NT Pre", cursive;  /* Gunakan font yang sudah diimpor */
+    font-weight: normal;  /* Atur bobot font sesuai kebutuhan, misalnya normal atau bold */
+    font-style: normal;   /* Jika Anda tidak ingin font tampil miring */
+    text-align: center;   /* Menyusun teks agar berada di tengah */
   }
+  
 
   p {
     font-size: 1rem;  /* Ukuran font paragraf lebih kecil */
@@ -149,5 +153,13 @@ body {
 
   .btn-info {
     width: 100%; /* Tombol mengambil lebar penuh pada mobile */
+  }
+
+  .edu-au-vic-wa-nt-pre {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal; /* Anda bisa mengganti sesuai dengan weight yang diinginkan */
+    font-style: normal;
+    text-align: center;  /* Agar teks berada di tengah */
   }
 }

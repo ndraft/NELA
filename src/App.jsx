@@ -46,11 +46,12 @@ function App() {
       {page === 1 && (
         <div className={`page page1 ${page === 1 ? 'show' : ''}`}>
           <div className="message-container text-center">
-            <h1>
-              Selamat Ulang Tahun 
-              <br />
-              Alma Naila Shafa Nasywa!
-            </h1>
+          <h1 style={{ fontFamily: '"Edu AU VIC WA NT Pre", cursive', fontWeight: 'normal', fontStyle: 'normal', textAlign: 'center' }}>
+  Selamat Ulang Tahun 
+  <br />
+  Alma Naila Shafa Nasywa!
+</h1>
+
             <p>Semoga byby aku suka ya sama kadonya☺️</p>
           </div>
 
@@ -80,7 +81,7 @@ function App() {
                 />
                 <div className="card-body">
                   <h5 className="card-title">Hadiah 2</h5>
-                  <p className="card-text">Hadiah ini penuh dengan cinta untukmu!</p>
+                  <p className="card-text">Hadiah ini isinya secret note dari aku untuk byby🤫!</p>
                   <button className="btn btn-info" onClick={() => handleMasuk(2)}>Masuk</button> {/* Tombol Masuk untuk Hadiah 2 */}
                 </div>
               </div>
@@ -95,7 +96,7 @@ function App() {
                 />
                 <div className="card-body">
                   <h5 className="card-title">Hadiah 3</h5>
-                  <p className="card-text">Hadiah ketiga untukmu yang spesial!</p>
+                  <p className="card-text">Hadiah ini isi nya Album Nostalgia spesial untuk byby😋!</p>
                   <button className="btn btn-info" onClick={() => handleMasuk(3)}>Masuk</button> {/* Tombol Masuk untuk Hadiah 3 */}
                 </div>
               </div>
