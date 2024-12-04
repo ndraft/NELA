@@ -52,7 +52,7 @@ function App() {
   Alma Naila Shafa Nasywa!
 </h1>
 
-<p style={{ fontSize: '12px' }}>Byby Pasti Tau Password Ini</p>
+
           </div>
 
           {/* Card Section */}
