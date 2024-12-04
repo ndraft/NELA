@@ -14,8 +14,7 @@ function Halaman3({ onBack }) {
             Nostalgia-
           </h1>
       
-      <p style={{ fontSize: '12px' }}>Hadiah ini adalah tanda cinta dan perhatian dariku untukmu. Aku berharap
-      kamu selalu merasa dihargai dan dicintai.</p>
+      <p style={{ fontSize: '12px' }}>Selamat Datang di Hadiah ketiga byby!!. Byby harus lihat seberapa lucunya byby dulu🫵🏻!!.</p>
       
 
       

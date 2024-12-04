@@ -39,14 +39,19 @@ const Halaman2 = ({ onBack }) => {
                 tepatin janji dan komitmen kita berdua ya sayangkuuuuu🤗.
                 <br />
                 <br />
-                Sayangku, Bidadariku, Pujaan Hatiku dan Cinta Sejatiku eci akan selalu berusaha menjaga byby sampai kapanpun,
+                Sayangku, Bidadariku, Pujaan Hatiku dan Cinta Sejatiku, eci akan selalu berusaha menjaga byby sampai kapanpun,
                 eci akan berusaha selalu ada disamping byby dalam kondisi sedih maupun senang. Mungkin kalo byby bisa belah hatiku dan baca isi pikiranku, byby 
                 akan tau sebepera dalam sayang dan cintanya aku kebyby. Aku cinta mati sayang sama byby i know ini cringe tapi kenyataanya seperti itu, kamu
                 benar-benar separuh nafasku by. i love u to the moon and back and ur my everything😊😘.
                 <br />
                 <br />
-                Terima kasih atas semua kebahagiaan yang telah byby berikan dalam hidupku. Setiap
-                momen bersama byby adalah kenangan yang tak ternilai sayabgku. Semoga kita terus berjalan bersama
+                Maafin aku ya manisku kalo di Ulang Tahunmu yang 20 ini, eci ga bisa kasih apa-apa, eci ga punya bunga eci blum punya banyak harta
+                tapi yang eci punya hanyalah hati yang setia😋. Doain eci ya sayangku Insyaallah tahun depan eci bisa kasih double kado ke byby yup!!. 
+                Karna jujur eci malu ke byby, ditahun ini eci malah bikin hancur banyak hal dan ga bisa ngado byby😭.
+                <br />
+                <br />
+                Terima kasih atas semua kebahagiaan yang telah byby berikan dalam hidup eci. Setiap
+                momen bersama byby adalah kenangan yang tak ternilai sayangku. Semoga kita terus berjalan bersama
                 dalam kebahagiaan ini ya cintaku, melewati semua suka dan duka yang datang. Aku mencintaimu lebih
                 dari yang bisa kuungkapkan dengan kata-kata.<br /><br />
                 Dengan cinta, <br />
