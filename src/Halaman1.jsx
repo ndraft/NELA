@@ -5,7 +5,7 @@ const Halaman1 = () => {
   return (
     <div className="halaman1">
       <h1 style={{ fontFamily: '"Edu AU VIC WA NT Pre", cursive', fontWeight: 'normal', fontStyle: 'normal', textAlign: 'center' }}>
-      🎉 Hadiah Pertama 🎉
+      - Hadiah Pertama -
       </h1>
       
       
