@@ -46,11 +46,11 @@ function App() {
       {page === 1 && (
         <div className={`page page1 ${page === 1 ? 'show' : ''}`}>
           <div className="message-container text-center">
-          <h1 style={{ fontFamily: '"Edu AU VIC WA NT Pre", cursive', fontWeight: 'normal', fontStyle: 'normal', textAlign: 'center' }}>
-  Selamat Ulang Tahun 
-  <br />
-  Alma Naila Shafa Nasywa!
-</h1>
+          <h1 style={{ fontFamily: '"Edu AU VIC WA NT Pre", cursive', fontWeight: 'bold', fontStyle: 'normal', textAlign: 'center' }}>
+            Selamat Ulang Tahun 
+          <br />
+            Alma Naila Shafa Nasywa!
+          </h1>
 
 
           </div>
