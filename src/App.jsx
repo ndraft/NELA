@@ -52,7 +52,7 @@ function App() {
   Alma Naila Shafa Nasywa!
 </h1>
 
-            <p>Semoga byby aku suka ya sama kadonya☺️</p>
+<p style={{ fontSize: '12px' }}>Semoga byby aku suka ya sama kadonya☺️</p>
           </div>
 
           {/* Card Section */}
