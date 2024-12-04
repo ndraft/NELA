@@ -26,8 +26,8 @@ function Halaman3({ onBack }) {
         className="gift-image" 
         style={{ width: '350px', height: 'auto', display: 'block', margin: '0 auto' }}  // Ukuran gambar lebih kecil
       />
-      <br/>
-<p style={{ fontSize: '12px', textAlign:'center',fontWeight:'bold',fontSize:'13px'}}>210 Items</p>
+      
+<p style={{ fontSize: '12px', textAlign:'center',fontWeight:'bold',fontSize:'14px'}}>210 Items</p>
       {/* Tombol untuk membuka album foto */}
       <button className="btn btn-info" onClick={handleOpenAlbum}>Lihat Album Foto</button>
 
