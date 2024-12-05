@@ -16,7 +16,7 @@ const Halaman1 = () => {
         <iframe
           width="100%"
           height="315"
-          src="https://www.youtube.com/embed/1tRh0u7qHKQ"  // Ganti dengan ID video YouTube yang sesuai
+          src="https://www.youtube.com/embed/mPJCRpOGnCk"  // Ganti dengan ID video YouTube yang sesuai
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
