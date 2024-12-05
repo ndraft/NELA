@@ -23,6 +23,7 @@ const Halaman1 = () => {
           allowFullScreen
         ></iframe>
       </div>
+      
 
       <div className="text-center mt-4">
         <button className="btn btn-secondary" onClick={() => window.location.reload()}>back</button>
